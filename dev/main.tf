@@ -2,6 +2,7 @@ module "resource_group" {
   source = "../module/resource_group"
   rgdev  = var.rgdev
 }
+# add ravi
 
 module "public_ip" {
   source = "../module/public_ip"

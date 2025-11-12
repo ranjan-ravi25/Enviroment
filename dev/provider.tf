@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name  = "rgprovider2"
+    resource_group_name  = "rgprovider5"
     storage_account_name = "stgprov"
     container_name       = "contprov1"
     key                  = "dev.terraform.tfstate"
